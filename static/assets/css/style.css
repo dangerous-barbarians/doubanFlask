@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header {
   height: 70px;
   transition: all 0.5s;
-  transition: all 0.5s;
   padding: 10px 0;
   background: #fff;
   z-index: 997;
@@ -1147,7 +1146,7 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   background-color: #428bca;
 }
 

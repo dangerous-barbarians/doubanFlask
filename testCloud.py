@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time : 2021/9/6 10:44
-# @Author : 信仰
-# @File : testCloud.py
-# @Software: PyCharm
 import jieba
 from matplotlib import pyplot as plt
 from wordcloud import WordCloud
