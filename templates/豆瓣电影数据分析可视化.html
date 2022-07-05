@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>豆瓣电影数据分析可视化</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/macarons.js"></script>
+
+    
+</head>
+<body>
+    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }</style>
+    <div class="box">
+                <div id="5e67d4be20b149e695349f6f0e288784" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_5e67d4be20b149e695349f6f0e288784 = echarts.init(
+            document.getElementById('5e67d4be20b149e695349f6f0e288784'), 'macarons', {renderer: 'canvas'});
+        var option_5e67d4be20b149e695349f6f0e288784 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u8bc4\u5206",
+            "legendHoverLink": true,
+            "data": [
+                9.2,
+                8.0,
+                9.5,
+                8.4,
+                8.9,
+                9.0,
+                8.9,
+                8.3,
+                6.3,
+                8.5,
+                8.3,
+                8.4,
+                8.1,
+                8.6,
+                8.6,
+                9.1,
+                9.2,
+                8.9,
+                8.3,
+                8.1,
+                8.9,
+                8.7,
+                8.6,
+                8.5,
+                8.6,
+                9.0,
+                8.2,
+                8.1,
+                4.5,
+                8.4,
+                8.6,
+                6.3,
+                8.3,
+                8.1,
+                8.5,
+                8.2,
+                8.6,
+                8.1,
+                8.1,
+                8.2,
+                8.2,
+                8.3,
+                8.3,
+                8.0,
+                8.0,
+                8.3,
+                8.3,
+                8.1,
+                8.3,
+                8.0
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u8bc4\u5206"
+            ],
+            "selected": {
+                "\u8bc4\u5206": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                40,
+                44,
+                45,
+                46,
+                47,
+                50,
+                52,
+                54,
+                56,
+                57,
+                59,
+                60,
+                63,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u65f6\u957f-\u8bc4\u5206",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_5e67d4be20b149e695349f6f0e288784.setOption(option_5e67d4be20b149e695349f6f0e288784);
+    </script>
+<br/>                <div id="93df7a9506534eb9a4bd2974cfa626fc" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_93df7a9506534eb9a4bd2974cfa626fc = echarts.init(
+            document.getElementById('93df7a9506534eb9a4bd2974cfa626fc'), 'macarons', {renderer: 'canvas'});
+        var option_93df7a9506534eb9a4bd2974cfa626fc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "line",
+            "name": "\u8bc4\u8bba\u6570",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2001",
+                    11.33692
+                ],
+                [
+                    "2002",
+                    0.49943
+                ],
+                [
+                    "2003",
+                    8.3464
+                ],
+                [
+                    "2004",
+                    8.07869
+                ],
+                [
+                    "2005",
+                    11.6768
+                ],
+                [
+                    "2006",
+                    1.93567
+                ],
+                [
+                    "2007",
+                    5.01533
+                ],
+                [
+                    "2008",
+                    4.7559
+                ],
+                [
+                    "2009",
+                    10.08274
+                ],
+                [
+                    "2010",
+                    6.91296
+                ],
+                [
+                    "2011",
+                    6.45205
+                ],
+                [
+                    "2012",
+                    0.52997
+                ],
+                [
+                    "2013",
+                    5.34775
+                ],
+                [
+                    "2014",
+                    1.12093
+                ],
+                [
+                    "2015",
+                    3.09947
+                ],
+                [
+                    "2016",
+                    2.36479
+                ],
+                [
+                    "2017",
+                    8.17209
+                ],
+                [
+                    "2018",
+                    7.10286
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "max"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u7535\u5f71\u6570",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2001",
+                    12
+                ],
+                [
+                    "2002",
+                    15
+                ],
+                [
+                    "2003",
+                    18
+                ],
+                [
+                    "2004",
+                    23
+                ],
+                [
+                    "2005",
+                    6
+                ],
+                [
+                    "2006",
+                    13
+                ],
+                [
+                    "2007",
+                    18
+                ],
+                [
+                    "2008",
+                    16
+                ],
+                [
+                    "2009",
+                    13
+                ],
+                [
+                    "2010",
+                    20
+                ],
+                [
+                    "2011",
+                    14
+                ],
+                [
+                    "2012",
+                    10
+                ],
+                [
+                    "2013",
+                    23
+                ],
+                [
+                    "2014",
+                    18
+                ],
+                [
+                    "2015",
+                    23
+                ],
+                [
+                    "2016",
+                    24
+                ],
+                [
+                    "2017",
+                    18
+                ],
+                [
+                    "2018",
+                    16
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "min"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u8bc4\u8bba\u6570",
+                "\u7535\u5f71\u6570"
+            ],
+            "selected": {
+                "\u8bc4\u8bba\u6570": true,
+                "\u7535\u5f71\u6570": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5e74\u4efd-\u6570\u91cf-\u8bc4\u8bba\u6570",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_93df7a9506534eb9a4bd2974cfa626fc.setOption(option_93df7a9506534eb9a4bd2974cfa626fc);
+    </script>
+<br/>                <div id="a46e90d47d1641e89bf2f3eb3727c476" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_a46e90d47d1641e89bf2f3eb3727c476 = echarts.init(
+            document.getElementById('a46e90d47d1641e89bf2f3eb3727c476'), 'macarons', {renderer: 'canvas'});
+        var option_a46e90d47d1641e89bf2f3eb3727c476 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 17.74405
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 17.95048
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 11.02531
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 18.71712
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 17.562
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 19.66055
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.15723
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 11.88812
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 17.29835
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 13.20134
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 14.02843
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 14.05157
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 3.76393
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 15.49678
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 10.69404
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 10.95065
+                },
+                {
+                    "name": "\u79d1\u5e7b",
+                    "value": 11.1026
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 15.7869
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 12.79569
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 8.37112
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 6.74106
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 7.76323
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 10.59332
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 13.2001
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 7.78868
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 15.05901
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 5.49874
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 17.39726
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 6.74951
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 6.60757
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 3.43426
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 12.69417
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 5.68019
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 8.38798
+                },
+                {
+                    "name": "\u5947\u5e7b",
+                    "value": 8.91391
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 8.67764
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 13.08708
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 5.72401
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 3.84632
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 11.54737
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 3.84823
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 8.26056
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 5.11753
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 7.44156
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 6.84461
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 10.1975
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 6.93831
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 11.05728
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 12.95599
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 0.71225
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "25%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.6
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.5
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.6
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.5
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.6
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u79d1\u5e7b",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.0
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5947\u5e7b",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.0
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.4
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.2
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.3
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u559c\u5267",
+                    "value": 9.0
+                },
+                {
+                    "name": "\u52a8\u753b",
+                    "value": 9.1
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.0
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 8.9
+                },
+                {
+                    "name": "\u5267\u60c5",
+                    "value": 9.5
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "75%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5267\u60c5",
+                "\u559c\u5267",
+                "\u79d1\u5e7b",
+                "\u52a8\u753b",
+                "\u5947\u5e7b"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u7c7b\u578b-\u8bc4\u5206-\u8bc4\u8bba\u6570",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_a46e90d47d1641e89bf2f3eb3727c476.setOption(option_a46e90d47d1641e89bf2f3eb3727c476);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="01f838b81ce6439480ec8204f793d0aa" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Table</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>File name</th>
+            <th>Score</th>
+            <th>Year</th>
+            <th>Time</th>
+            <th>Language</th>
+            <th>Comment</th>
+            <th>Area</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>霸王别姬</td>
+            <td>9.6</td>
+            <td>1993</td>
+            <td>171</td>
+            <td> 汉语普通话</td>
+            <td>1774405</td>
+            <td> 中国大陆</td>
+        </tr>
+        <tr>
+            <td>阿甘正传 Forrest Gump</td>
+            <td>9.5</td>
+            <td>1994</td>
+            <td>142</td>
+            <td> 英语</td>
+            <td>1795048</td>
+            <td> 美国</td>
+        </tr>
+        <tr>
+            <td>美丽人生 La vita è bella</td>
+            <td>9.6</td>
+            <td>1997</td>
+            <td>116</td>
+            <td> 意大利语</td>
+            <td>1102531</td>
+            <td> 意大利</td>
+        </tr>
+        <tr>
+            <td>千与千寻 千と千尋の神隠し</td>
+            <td>9.4</td>
+            <td>2001</td>
+            <td>125</td>
+            <td> 日语</td>
+            <td>1871712</td>
+            <td> 日本</td>
+        </tr>
+        <tr>
+            <td>泰坦尼克号 Titanic</td>
+            <td>9.4</td>
+            <td>1997</td>
+            <td>194</td>
+            <td> 英语</td>
+            <td>1756200</td>
+            <td> 美国</td>
+        </tr>
+        <tr>
+            <td>这个杀手不太冷 Léon</td>
+            <td>9.4</td>
+            <td>1994</td>
+            <td>110</td>
+            <td> 英语</td>
+            <td>1966055</td>
+            <td> 法国</td>
+        </tr>
+        <tr>
+            <td>辛德勒的名单 Schindler&amp;#39;s List</td>
+            <td>9.5</td>
+            <td>1993</td>
+            <td>195</td>
+            <td> 英语</td>
+            <td>915723</td>
+            <td> 美国</td>
+        </tr>
+        <tr>
+            <td>忠犬八公的故事 Hachi: A Dog&amp;#39;s Tale</td>
+            <td>9.4</td>
+            <td>2009</td>
+            <td>93</td>
+            <td> 英语</td>
+            <td>1188812</td>
+            <td> 美国</td>
+        </tr>
+        <tr>
+            <td>盗梦空间 Inception</td>
+            <td>9.3</td>
+            <td>2010</td>
+            <td>148</td>
+            <td> 英语</td>
+            <td>1729835</td>
+            <td> 美国</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>
